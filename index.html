@@ -17,18 +17,26 @@
     </head>
     <body>
         <header>
+                <!-- header-top per logo sony  -->
                 <div class="header_top bg-dark">
                     <div class="container-fluid">
                         <img class="sony_logo" src="img/sony_logo.svg" alt="logo sony">
                     </div>
                 </div>
+                <!-- /header-top per logo sony  -->
+                <!-- header bottom per nav bar -->
                 <div class="header_bottom">
                         <nav class="navbar navbar-expand-xxl navbar-light bg-light">
                             <div class="container-fluid">
+                                <!-- logo playstation  -->
                                 <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="Logo play"></a>
+                                <!-- /logo playstation  -->
+                                <!-- bottone display none in xxl e display inline-bloc fino a lg -->
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
+                                <!-- /bottone display none in xxl e display inline-bloc fino a lg -->
+                                <!-- nav bar display none a view xxl  -->
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav me-auto mb-0">
                                         <li class="nav-item">
@@ -62,6 +70,7 @@
                                             </a>
                                         </li>
                                     </ul>
+                                    <!-- contenitore per spostare gli elementi al suo interno a destra  -->
                                     <div class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-xxl-center">
                                         <div class="nav-item dropdown me-2">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,19 +78,67 @@
                                             </a>
                                         </div>
                                         <div class="nav-item mt-3 mb-3 m-xxl-0">
-                                            <button class="btn btn-primary btn_grey" type="submit">Accedi</button>
+                                            <button class="btn btn_grey text-white" type="submit">Accedi</button>
                                         </div>
                                         <div class="nav-item ms-4">
                                             <img class="search_lens align-middle" src="img/lens.svg" alt="Ricerca">
                                         </div>
                                     </div>   
-                                    </ul> 
-                              </div>
+                                    <!-- /contenitore per spostare gli elementi al suo interno a destra  -->
+                                </div>
+                                <!-- /nav bar display none a view xxl  -->
                             </div>
                           </nav>
                     </div>
+                <!-- /header-top per logo sony  -->
         </header>
-        <main></main>
+        <main>
+            <section class="hero">
+                <div class="top_hero">
+                    <!-- immagine sfondo hero  -->
+                    <img class="jumbo_hero img-fluid" src="img/jumbo-bg.png" alt="Returnal">
+                    <!-- /immagine sfondo hero  -->
+                    <!-- contenitore per titolo gioco, descrizione e bottone acquista ora  -->
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col-xl-4 col-12">
+                                <img src="img/returnal-hero-banner-logo.png" alt="Logo Returnal">
+                                <h1 class="text-white mt-4 mb-5">Rompi il cerchio</h1>
+                                <p class="text-white mb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                                <button class="btn btn_orange text-white">Acquista ora</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /contenitore per titolo gioco, descrizione e bottone acquista ora  -->
+                </div>
+                <!-- contenitore per schede giochi  -->
+                <div class="bottom_hero pt-5 pb-5">
+                    <div class="container">
+                        <div class="row g-5">
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 text-center">
+                                <img class="img-fluid"src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /contenitore per schede giochi  -->
+            </section>
+        </main>
         <footer></footer>
         <!-- javascript bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

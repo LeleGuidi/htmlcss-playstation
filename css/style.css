@@ -5,8 +5,12 @@
     background-color: #363636;
     border: 1px solid #363636;
     border-radius: 20px;
-    font-size: 16px;
 
+}
+.btn_orange {
+    background-color: #cd3d0f;
+    border: 1 solid #cd3d0f;
+    border-radius: 20px;
 }
 /*-----------------
     TYPO
@@ -22,6 +26,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 .header_top .container-fluid {
     text-align: right;
@@ -32,4 +37,42 @@ header {
 }
 .search_lens {
     width: 25px;
+}
+/*-----------------
+    HERO
+-----------------*/
+.hero {
+    margin-top: 110px;
+    width: 100%;
+}
+.hero .top_hero {
+    position: relative;
+}
+.top_hero .jumbo_hero {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.top_hero .container {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.top_hero .container img {
+    width: 210px;
+}
+.bottom_hero img {
+    border-radius: 10px;
+    margin: 3px;
+}
+.bottom_hero .row div {
+    transition: 0.5s;
+}
+/*-----------------
+    EFFETCS
+-----------------*/
+.bottom_hero .row div:hover {
+    transform: translate(0, -20px);
 }
