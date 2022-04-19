@@ -74,7 +74,10 @@ header {
 }
 .bottom_hero img {
     border-radius: 10px;
-    margin: 3px;
+    border: 2px solid transparent;
+    padding: 2px;
+    box-sizing: content-box;
+    transform: translate(-4px, -4px);
 }
 .bottom_hero .row div {
     transition: 0.5s;
