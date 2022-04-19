@@ -1,4 +1,20 @@
 /*-----------------
+    BUTTONS
+-----------------*/
+.btn_grey {
+    background-color: #363636;
+    border: 1px solid #363636;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+/*-----------------
+    TYPO
+-----------------*/
+body {
+    font-size: 16px;
+}
+/*-----------------
     HEADER
 -----------------*/
 header {
@@ -11,6 +27,9 @@ header {
     text-align: right;
     padding: 5px;
 }
-.header_top img {
+.sony_logo {
     width: 75px;
+}
+.search_lens {
+    width: 25px;
 }
