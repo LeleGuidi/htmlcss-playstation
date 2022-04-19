@@ -76,3 +76,9 @@ header {
 .bottom_hero .row div:hover {
     transform: translate(0, -20px);
 }
+.bottom_hero .row div:hover img {
+    border: 2px solid #0072ce;
+    padding: 2px;
+    box-sizing: content-box;
+    transform: translate(-4px, -4px);
+}
