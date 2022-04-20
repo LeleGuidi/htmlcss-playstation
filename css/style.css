@@ -23,6 +23,11 @@
     color: #0072ce;
     border-radius: 20px;
 }
+.btn_white {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
 /*-----------------
     TYPO
 -----------------*/
@@ -36,9 +41,6 @@ h2 {
 /*-----------------
     COMMON
 -----------------*/
-.hero .top_hero, .nuove_uscite .top_uscite {
-    position: relative;
-}
 .max_img {
     position: absolute;
     z-index: -1;
@@ -75,6 +77,9 @@ header {
     width: 100%;
     padding: 0;
 }
+.top_hero {
+    position: relative;
+}
 .top_hero .container {
     padding-top: 200px;
     padding-bottom: 50px;
@@ -106,6 +111,9 @@ header {
 /*-----------------
     NUOVE USCITE
 -----------------*/
+.top_uscite {
+    position: relative;
+}
 .logo_videogame {
     width: 210px;
 }
@@ -128,22 +136,27 @@ header {
     font-size: 40px;
 }
 /*-----------------
-    PLAYSTATION PLUS
+    PLAYSTATION PLUS / PLAYSTATION NOW
 -----------------*/
 .playstation_plus {
     background-color: #bebcbb;
+}
+.playstation_now {
+    background-color: #161c3b;
+}
+.playstation_plus, .playstation_now {
     padding: 50px 0 50px 0;
 }
-.logo_plus {
+.logo_plus, .logo_now {
     width: 200px;
 }
 @media screen and (min-width: 768px) {
-    .playstation_plus {
+    .playstation_plus, .playstation_now {
         padding: 0;
     }
 }
 @media screen and (min-width: 1200px) {
-    .logo_plus {
+    .logo_plus, .logo_now {
         width: 400px;
     }
 }
