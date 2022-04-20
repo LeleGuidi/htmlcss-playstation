@@ -171,6 +171,37 @@ header {
     max-width: 800px;
 }
 /*-----------------
+    FOOTER
+-----------------*/
+footer {
+    background-color: #00439c;
+    color: white;
+    font-size: 12px;
+}
+footer .ps_logo_footer {
+    width: 100px;
+}
+footer .language_img {
+    width: 20px;
+    vertical-align: middle;
+}
+footer ul {
+    list-style: none;
+}
+footer li {
+    padding: 5px 0 5px 0;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+footer .footer_bottom img {
+    width: 150px;
+}
+footer .footer_bottom a {
+    text-decoration: underline;
+}
+/*-----------------
     EFFETCS
 -----------------*/
 .bottom_hero .row div:hover {
