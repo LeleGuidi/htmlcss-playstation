@@ -38,6 +38,10 @@ h2 {
     font-size: 45px;
     font-weight: 400;
 }
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
 /*-----------------
     COMMON
 -----------------*/
@@ -159,6 +163,12 @@ header {
     .logo_plus, .logo_now {
         width: 400px;
     }
+}
+/*-----------------
+    SOCIAL MEDIA
+-----------------*/
+.social_media .container {
+    max-width: 800px;
 }
 /*-----------------
     EFFETCS
