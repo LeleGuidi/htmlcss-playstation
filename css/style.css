@@ -121,7 +121,12 @@ header {
 .bottom_uscite img {
     border-radius: 10px;
 }
-
+/*-----------------
+    PLAYSTATION 4
+-----------------*/
+.playstation4 .container h2 {
+    font-size: 40px;
+}
 /*-----------------
     EFFETCS
 -----------------*/
