@@ -128,6 +128,26 @@ header {
     font-size: 40px;
 }
 /*-----------------
+    PLAYSTATION PLUS
+-----------------*/
+.playstation_plus {
+    background-color: #bebcbb;
+    padding: 50px 0 50px 0;
+}
+.logo_plus {
+    width: 200px;
+}
+@media screen and (min-width: 768px) {
+    .playstation_plus {
+        padding: 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .logo_plus {
+        width: 400px;
+    }
+}
+/*-----------------
     EFFETCS
 -----------------*/
 .bottom_hero .row div:hover {
