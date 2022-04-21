@@ -225,3 +225,23 @@ footer .footer_bottom a {
     opacity: 1;
     border-bottom: 2px solid #0072ce;
 }
+.btn.btn_grey:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px #363636;
+}
+.btn_orange:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 0 2px #cd3d0f;
+}
+.btn_blue:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px #0072ce;
+}
+.btn_brown_light:hover {
+    box-shadow: 0 0 2px 5px hsl(0, 0%, 92%, 0.7);
+    color: #0072ce;
+}
+.btn_white:hover {
+    box-shadow: 0 0 0 2px white;
+    border: 1px solid black;
+}
