@@ -101,6 +101,9 @@ header {
 .bottom_hero .row div {
     transition: 0.5s;
 }
+img.active_hero {
+    border: 2px solid #0072ce;
+}
 /*-----------------
     PLAYSTAITON 5
 -----------------*/
@@ -112,6 +115,10 @@ header {
 .opacity07 {
     opacity: 0.7;
     border-bottom: 2px solid transparent;
+}
+.active_ps5 {
+    opacity: 1;
+    border-bottom: 2px solid #0072ce;
 }
 /*-----------------
     NUOVE USCITE
